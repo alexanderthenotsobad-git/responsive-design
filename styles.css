@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -48,14 +47,14 @@
 }
 
 /* Mobile Styles */
-@media only screen and (max-width:400px) {
+@media screen and (max-width:400px) {
   body {
     background-color: #F09A9D; /* Red */
   }
 }
 
 /* Tablet Styles */
-@media only screen and (min-width:401px) and (max-width:960px) {
+@media screen and (min-width:401px) and (max-width:960px) {
   body {
     .sign-up,
   .feature-1,
@@ -66,7 +65,7 @@
 }
 
 /* Desktop Styles */
-@media only screen and (min-width:961px) {
+@media screen and (min-width:961px) {
   body {
     background-color: #B2D6FF; /* Blue */
   }
